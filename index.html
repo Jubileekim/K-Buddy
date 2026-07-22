@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="K-Buddy helps international travelers find short, interest-based Seoul meetups with other travelers.">
+  <title>K-Buddy | Find a Seoul travel buddy</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="K-Buddy home">
+        <img src="assets/logo.svg" alt="" width="42" height="42">
+        <span>K-Buddy</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </button>
+
+      <nav id="primary-navigation" class="primary-navigation" aria-label="Primary navigation">
+        <a href="#how-it-works">How it works</a>
+        <a href="#experiences">Experiences</a>
+        <a href="#safety">Safety</a>
+        <button class="button button-small button-primary" type="button" data-open-search>Find a buddy</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section id="top" class="hero section">
+      <div class="hero-glow hero-glow-one" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-two" aria-hidden="true"></div>
+      <div class="container hero-layout">
+        <div class="hero-copy" data-reveal>
+          <p class="eyebrow">Short meetups. Shared interests. Real Seoul.</p>
+          <h1>Find the right buddy for one Seoul experience.</h1>
+          <p class="hero-description">Choose a Seoul spot, date, and interest. Meet another traveler for a short shared experience - without committing to an entire trip together.</p>
+          <div class="hero-actions">
+            <button class="button button-primary" type="button" data-open-search>Find My Seoul Buddy</button>
+            <a class="button button-secondary" href="#experiences">Browse Buddy Plans</a>
+          </div>
+          <ul class="trust-row" aria-label="Service benefits">
+            <li>Public meeting spots</li>
+            <li>Interest-based plans</li>
+            <li>Contact details protected</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual glass-card" data-reveal>
+          <div class="floating-badge">Seoul mini plan</div>
+          <div class="hero-illustration" role="img" aria-label="Two travelers meeting near the Seoul skyline">
+            <div class="skyline" aria-hidden="true">
+              <span></span><span></span><span></span><span></span><span></span>
+            </div>
+            <div class="bridge" aria-hidden="true"></div>
+            <div class="traveler traveler-one" aria-hidden="true"></div>
+            <div class="traveler traveler-two" aria-hidden="true"></div>
+          </div>
+          <div class="plan-preview">
+            <div>
+              <p class="plan-location">Seongsu Cafe Walk</p>
+              <p>Friday, 2:00 PM · 2-3 hours</p>
+            </div>
+            <span class="status-badge">3 spots left</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section problem-solution" aria-labelledby="problem-title">
+      <div class="container split-section">
+        <div data-reveal>
+          <p class="eyebrow">The travel gap</p>
+          <h2 id="problem-title">Your travel partner does not want to visit the same place?</h2>
+          <p>You should not have to skip it - or explore it alone.</p>
+        </div>
+        <div class="glass-card solution-card" data-reveal>
+          <span class="icon-chip" aria-hidden="true">✦</span>
+          <h3>Choose the experience first</h3>
+          <p>K-Buddy connects travelers who want the same Seoul experience, on the same day, for just a few hours.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="section" aria-labelledby="how-title">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">How K-Buddy works</p>
+          <h2 id="how-title">From saved place to confirmed meetup</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card glass-card" data-reveal>
+            <span class="step-number">01</span>
+            <h3>Choose your spot and date</h3>
+            <p>Tell us when and where you want to explore Seoul.</p>
+          </article>
+          <article class="feature-card glass-card" data-reveal>
+            <span class="step-number">02</span>
+            <h3>Find a matching traveler</h3>
+            <p>Compare plans by schedule, interests, language, and meetup preference.</p>
+          </article>
+          <article class="feature-card glass-card" data-reveal>
+            <span class="step-number">03</span>
+            <h3>Confirm a safe meetup</h3>
+            <p>Meet at a public place after both travelers accept the plan.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experiences" class="section experiences-section" aria-labelledby="experiences-title">
+      <div class="container">
+        <div class="section-heading section-heading-row" data-reveal>
+          <div>
+            <p class="eyebrow">Popular Seoul experiences</p>
+            <h2 id="experiences-title">Start with what you want to do</h2>
+          </div>
+          <button class="text-button" type="button" data-open-search>See matching plans</button>
+        </div>
+
+        <div class="experience-grid">
+          <article class="experience-card glass-card" tabindex="0" data-reveal>
+            <div class="experience-art art-seongsu" aria-hidden="true"></div>
+            <div class="experience-content">
+              <p class="meta">Seongsu · Cafe · Photo</p>
+              <h3>Seongsu Cafe Walk</h3>
+              <p>Design cafes, photo spots, and independent shops.</p>
+              <button class="card-link" type="button" data-plan="Seongsu Cafe Walk">View plan</button>
+            </div>
+          </article>
+          <article class="experience-card glass-card" tabindex="0" data-reveal>
+            <div class="experience-art art-hongdae" aria-hidden="true"></div>
+            <div class="experience-content">
+              <p class="meta">Hongdae · K-pop · Music</p>
+              <h3>Hongdae K-pop Route</h3>
+              <p>Music stores, photo booths, street performances, and youth culture.</p>
+              <button class="card-link" type="button" data-plan="Hongdae K-pop Route">View plan</button>
+            </div>
+          </article>
+          <article class="experience-card glass-card" tabindex="0" data-reveal>
+            <div class="experience-art art-myeongdong" aria-hidden="true"></div>
+            <div class="experience-content">
+              <p class="meta">Myeongdong · Beauty · Shopping</p>
+              <h3>Myeongdong Beauty Shopping</h3>
+              <p>K-Beauty, cosmetics, travel-friendly shopping, and beauty tips.</p>
+              <button class="card-link" type="button" data-plan="Myeongdong Beauty Shopping">View plan</button>
+            </div>
+          </article>
+          <article class="experience-card glass-card" tabindex="0" data-reveal>
+            <div class="experience-art art-hanriver" aria-hidden="true"></div>
+            <div class="experience-content">
+              <p class="meta">Han River · Sunset · Food</p>
+              <h3>Han River Picnic</h3>
+              <p>Sunset views, convenience-store snacks, and a relaxed local evening.</p>
+              <button class="card-link" type="button" data-plan="Han River Picnic">View plan</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="safety" class="section safety-section" aria-labelledby="safety-title">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Safety by design</p>
+          <h2 id="safety-title">A lighter way to meet, with clear boundaries</h2>
+        </div>
+        <div class="safety-grid">
+          <article class="safety-item" data-reveal>
+            <span class="safety-icon" aria-hidden="true">✓</span>
+            <h3>Verified profiles</h3>
+            <p>Email verification and minimum profile information reduce empty or anonymous accounts.</p>
+          </article>
+          <article class="safety-item" data-reveal>
+            <span class="safety-icon" aria-hidden="true">⌖</span>
+            <h3>Public meeting points</h3>
+            <p>Exact meeting details are shared only after both travelers accept.</p>
+          </article>
+          <article class="safety-item" data-reveal>
+            <span class="safety-icon" aria-hidden="true">◈</span>
+            <h3>Privacy first</h3>
+            <p>Personal email and social accounts remain hidden before matching.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section final-cta" aria-labelledby="cta-title">
+      <div class="container final-cta-card glass-card" data-reveal>
+        <p class="eyebrow">Your next Seoul plan</p>
+        <h2 id="cta-title">One Seoul spot. One new travel buddy.</h2>
+        <p>Turn your saved Seoul places into real shared experiences.</p>
+        <button class="button button-primary" type="button" data-open-search>Start Finding My Buddy</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand" href="#top" aria-label="K-Buddy home">
+        <img src="assets/logo.svg" alt="" width="36" height="36">
+        <span>K-Buddy</span>
+      </a>
+      <p>Seoul mini travel buddy landing page prototype.</p>
+      <p>© 2026 K-Buddy</p>
+    </div>
+  </footer>
+
+  <dialog id="buddy-search-dialog" class="search-dialog" aria-labelledby="dialog-title">
+    <form id="buddy-search-form" class="dialog-panel">
+      <button class="dialog-close" type="button" aria-label="Close buddy search">×</button>
+      <p class="eyebrow">Mini buddy search</p>
+      <h2 id="dialog-title">Find your Seoul buddy</h2>
+      <p class="dialog-intro">Select a few conditions to preview matching Seoul plans.</p>
+
+      <div class="form-grid">
+        <div class="field-group">
+          <label for="travel-date">Travel date</label>
+          <input id="travel-date" name="travelDate" type="date" required>
+        </div>
+
+        <fieldset class="field-group">
+          <legend>Area</legend>
+          <div class="chip-group">
+            <label class="select-chip"><input type="radio" name="area" value="Seongsu" required><span>Seongsu</span></label>
+            <label class="select-chip"><input type="radio" name="area" value="Hongdae"><span>Hongdae</span></label>
+            <label class="select-chip"><input type="radio" name="area" value="Myeongdong"><span>Myeongdong</span></label>
+            <label class="select-chip"><input type="radio" name="area" value="Gangnam"><span>Gangnam</span></label>
+          </div>
+        </fieldset>
+
+        <fieldset class="field-group">
+          <legend>Interests</legend>
+          <div class="chip-group">
+            <label class="select-chip"><input type="checkbox" name="interest" value="Cafes"><span>Cafes</span></label>
+            <label class="select-chip"><input type="checkbox" name="interest" value="K-Beauty"><span>K-Beauty</span></label>
+            <label class="select-chip"><input type="checkbox" name="interest" value="Shopping"><span>Shopping</span></label>
+            <label class="select-chip"><input type="checkbox" name="interest" value="K-pop"><span>K-pop</span></label>
+            <label class="select-chip"><input type="checkbox" name="interest" value="Food"><span>Food</span></label>
+            <label class="select-chip"><input type="checkbox" name="interest" value="Photo"><span>Photo</span></label>
+          </div>
+        </fieldset>
+      </div>
+
+      <p id="form-feedback" class="form-feedback" role="status" aria-live="polite"></p>
+      <button class="button button-primary button-full" type="submit">Show Matching Plans</button>
+    </form>
+  </dialog>
+</body>
+</html>
